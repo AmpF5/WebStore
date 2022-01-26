@@ -1,0 +1,19 @@
+﻿@model KeyboardListViewModel
+
+
+
+<h1>@Model.CurrentCategory</h1>
+@foreach(var keyboard in Model.Keyboards)
+        {
+    <div class="col-sm-4" col-lg-4 col-md-4>
+        <div class="thumbnail">
+            <img src="@keyboard.ImageThumbnailUrl" alt="image for webstore" />
+            <div class="caption">
+                <h3 class="pull-right">@keyboard.Price.ToString("c")</h3>
+                <h3>@keyboard.Name</h3>
+                <p>@keyboard.Description</p>
+            </div>
+        </div>
+    </div>
+        }
+
