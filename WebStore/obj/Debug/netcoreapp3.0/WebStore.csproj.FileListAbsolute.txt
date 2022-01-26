@@ -122,3 +122,4 @@ C:\Users\micha\Source\Repos\WebStore\WebStore\obj\Debug\netcoreapp3.0\WebStore.c
 C:\Users\micha\Source\Repos\WebStore\WebStore\obj\Debug\netcoreapp3.0\WebStore.dll
 C:\Users\micha\Source\Repos\WebStore\WebStore\obj\Debug\netcoreapp3.0\WebStore.pdb
 C:\Users\micha\Source\Repos\WebStore\WebStore\obj\Debug\netcoreapp3.0\WebStore.genruntimeconfig.cache
+C:\Users\micha\Source\Repos\WebStore\WebStore\obj\Debug\netcoreapp3.0\WebStore.csproj.AssemblyReference.cache
