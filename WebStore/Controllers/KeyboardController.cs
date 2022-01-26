@@ -29,5 +29,14 @@ namespace WebStore.Controllers
             keyboardListViewModel.CurrentCategory = "Bestsellers";
             return View(keyboardListViewModel);
         }
+        public IActionResult Details(int id)
+        {
+            var keyboard = _keyboardRepository.GetKeyboardById(id);
+            if(keyboard == null)
+            {
+                return NotFound();
+            }
+            return View(keyboard);
+        }
     }
 }

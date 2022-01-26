@@ -1,0 +1,13 @@
+﻿@model HomeViewModel
+
+<partial name="_Carousel"/>
+
+
+<h2>Keyboard On Sale</h2>
+
+<div class="row">
+    @foreach(var keyboard in Model.KeyboardOnSale)
+    {
+        <partial name="_keyboardCard" model="keyboard" />
+    }
+</div>

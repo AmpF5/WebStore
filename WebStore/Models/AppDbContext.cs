@@ -10,6 +10,7 @@ namespace WebStore.Models
         }
         public DbSet<Keyboard> Keyboards { get; set; }
         public DbSet<Category> Categories { get; set; } 
+        public DbSet<ShoppingCartItem> ShoppingCartItems { get; set;}
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -19,7 +20,6 @@ namespace WebStore.Models
             modelBuilder.Entity<Category>().HasData(new Category { CategoryId = 3, CategoryName = "Hybrydowa", CategoryDescription = "klawiatura hybrydowa" });
 
 
-
             modelBuilder.Entity<Keyboard>().HasData(new Keyboard
             {
                 KeyboardId = 1,
@@ -27,8 +27,8 @@ namespace WebStore.Models
                 Price = 899.99M,
                 Description ="klawiatura corsiar k100",
                 CategoryId = 1,
-                ImageUrl = "~\\Images\\corsairk100.jpg",
-                ImageThumbnailUrl = "~\\Images\\corsairk100.jpg",
+                ImageUrl = "\\Images\\corsairk100.jpg",
+                ImageThumbnailUrl = "\\Images\\corsairk100.jpg",
                 IsInStock = true,
                 IsOnSale = false
             }); ;
