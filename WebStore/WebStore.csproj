@@ -16,6 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Views\Mouse\" />
+    <Folder Include="Views\Monitor\" />
+    <Folder Include="Views\Headphones\" />
     <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
