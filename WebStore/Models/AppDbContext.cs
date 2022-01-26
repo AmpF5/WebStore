@@ -9,7 +9,11 @@ namespace WebStore.Models
 
         }
         public DbSet<Keyboard> Keyboards { get; set; }
-        public DbSet<Category> Categories { get; set; } 
+        public DbSet<Headphones> Headphones { get; set; }
+        public DbSet<Mouse> Mice { get; set; }
+        public DbSet<Monitor> Monitors { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
